@@ -634,6 +634,7 @@
     #app{ padding: 0 24px; }
     .start-screen h1{ font-size: 44px; }
   }
+.app-foot a{color:inherit;text-decoration:underline;}
 </style>
 </head>
 <body>
@@ -1734,7 +1735,7 @@
     } else {
       html = renderStart();
     }
-    app.innerHTML = '<div>' + html + '</div><footer class="app-foot">Kalorienklar mit Mandy · deine persönliche Orientierung, kein medizinischer Rat</footer>';
+    app.innerHTML = '<div>' + html + '</div><footer class="app-foot">Kalorienklar mit Mandy · deine persönliche Orientierung, kein medizinischer Rat<br><a href="https://mandy-heubach.de/impressum" target="_blank" rel="noopener">Impressum</a> · <a href="https://mandy-heubach.de/datenschutz" target="_blank" rel="noopener">Datenschutz</a></footer>';
     bindNumberInputs();
   }
 
